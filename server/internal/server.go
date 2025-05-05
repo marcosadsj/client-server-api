@@ -1,14 +1,14 @@
-package server
+package internal
 
 import (
-	"client-server-api/dto"
-	"client-server-api/server/database"
-	"client-server-api/server/database/model"
 	"context"
 	"encoding/json"
 	"io"
 	"log"
 	"net/http"
+	"server-api/internal/database"
+	"server-api/internal/database/model"
+	"server-api/internal/dto"
 	"time"
 )
 

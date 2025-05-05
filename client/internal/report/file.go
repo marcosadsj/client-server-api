@@ -1,4 +1,4 @@
-package file
+package report
 
 import (
 	"bufio"

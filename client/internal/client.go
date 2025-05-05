@@ -1,8 +1,8 @@
-package client
+package internal
 
 import (
-	report "client-server-api/client/report"
-	"client-server-api/dto"
+	"client-request/internal/dto"
+	report "client-request/internal/report"
 	"context"
 	"encoding/json"
 	"io"

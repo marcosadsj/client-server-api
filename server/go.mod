@@ -1,4 +1,4 @@
-module client-server-api
+module server-api
 
 go 1.22.4
 

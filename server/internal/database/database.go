@@ -1,9 +1,9 @@
 package database
 
 import (
-	"client-server-api/server/database/model"
 	"context"
 	"log"
+	"server-api/internal/database/model"
 	"time"
 
 	"github.com/glebarez/sqlite"
